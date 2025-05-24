@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agency Hero</title>
+
+  <!-- Epilogue font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<link href="/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <div class="container">
+      <!-- Brand/logo -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="./images/logo.png" alt="Agency Logo" height="36">
+        <span class="ms-2">Agency</span>
+      </a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav links centered, Contact on right -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <div class="d-flex w-100 align-items-center">
+          <!-- Centered links -->
+          <ul class="navbar-nav mx-auto centered-nav">
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+          <!-- Contact button on far right -->
+          <a class="btn btn-outline-light px-4 ms-3" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left text -->
+        <div class="col-lg-6 text-lg-start text-center mb-5 mb-lg-0">
+          <small class="text-uppercase" style="color: var(--accent-orange);">
+            Modern Studio
+          </small>
+          <h1 class="display-4 fw-bold text-white">
+            We’re Help<br />
+            To Build Your<br />
+            Dream Project
+          </h1>
+          <p class="lead text-secondary fs-6">
+            Agency provides a full service range including technical skills, design, business understanding.
+          </p>
+
+          <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+            <a href="#" class="btn btn-primary btn-lg" style="background: var(--accent-orange); border:none;">
+              How We Work
+            </a>
+            <a href="#" class="btn btn-outline-light btn-lg border-0">Contact Us</a>
+
+          </div>
+        </div>
+
+        <!-- Right: single hero image -->
+        <div class="col-lg-6 text-center text-lg-end">
+          <img src="./images/pic.png" alt="Hero Visual" class="img-fluid rounded"
+            style="max-height: 455px; object-fit: cover;" />
+        </div>
+        <div class="d-inline-flex align-items-center gap-3">
+          <img src="./images/Bitmap.png" alt="User" class="rounded-circle" width="50" />
+          <blockquote class="blockquote mb-0 text-secondary fs-6">
+            “Put themselves in the merchant’s shoes”
+            <footer class="blockquote-footer text-white mt-1 fs-6">Meta Inc.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT & STATS SECTION -->
+  <section class="py-5" style="background-color: #fdf3ec;">
+    <div class="container">
+
+      <!-- Partner Logos -->
+      <div class="d-flex justify-content-between align-items-center flex-wrap mb-4">
+        <img src="./images/01.png" alt="DigitalSide" class="img-fluid" style="height: 25px; opacity: .6;">
+        <img src="./images/02.png" alt="Vortex" class="img-fluid" style="height: 25px; opacity: .6;">
+        <img src="./images/03.png" alt="Travel Explorer" class="img-fluid" style="height: 25px; opacity: .6;">
+        <img src="./images/04.png" alt="Fuzion" class="img-fluid" style="height: 25px; opacity: .6;">
+        <img src="./images/05.png" alt="MediaFury" class="img-fluid" style="height: 25px; opacity: .6;">
+      </div>
+      <hr class="mb-5" style="border-color: #F3D1BF;">
+
+
+      <!-- About Row -->
+      <div class="row align-items-center gy-4">
+        <!-- Left image + overlay -->
+        <div class="col-lg-6 position-relative">
+          <!-- Light background square -->
+          <div class="position-absolute bg-light"
+            style="width: 80%; height: 80%; top: 10%; left: 10%; border-radius: .5rem;"></div>
+          <img src="./images/pic2.png" alt="Office" class="img-fluid rounded" style="position: relative; z-index: 2;">
+        </div>
+
+        <!-- Right text -->
+        <div class="col-lg-6">
+          <small class="text-uppercase text-accent-orange highlight-text">About</small>
+          <h2 class="fw-bold display-6 mt-2 text-black">An Experience Design Agency</h2>
+          <p class="text-secondary fs-6 mb-4">
+            Ability to put themselves in the merchant's shoes. It is meant to partner on the long run,
+            and work as an extension of the merchant's team.
+          </p>
+          <a href="#" class="btn btn-white px-4 py-2 shadow-sm"
+            style="background: #fff; color: #3e2a1f; font-weight: 600;">
+            About Us
+          </a>
+        </div>
+      </div>
+
+      <div class="stats-flex mt-5">
+        <div class="stats-item">
+          <h3>42%</h3>
+          <p class="mb-0 text-secondary">Years of experience</p>
+        </div>
+        <div class="stats-item">
+          <h3>73+</h3>
+          <p class="mb-0 text-secondary">Agency members</p>
+        </div>
+        <div class="stats-item">
+          <h3>5,000</h3>
+          <p class="mb-0 text-secondary">Projects complete</p>
+        </div>
+      </div>
+
+      <div class="container py-5 mt-6">
+        <div class="row mb-5">
+          <div class="col-md-6 mb-4">
+            <div class="highlight-text mb-2">How we work</div>
+            <h2 class="fw-bold">Making Your Projects<br>Look Awesome</h2>
+            <p>Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.</p>
+            <a href="#" class="text-decoration-none text-black">Read More</a>
+          </div>
+          <div class="col-md-6">
+            <ol class="list-unstyled">
+              <li class="mb-3">
+                <span class="fs-3 fw-bold">1</span> Full service range including
+              </li>
+              <li class="mb-3">
+                <span class="fs-3 fw-bold">2</span> Technical skills, design, business
+              </li>
+              <li class="mb-3">
+                <span class="fs-3 fw-bold">3</span> Themselves in the merchant’s
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <hr style="border-color: #F3D1BF;">
+
+
+        <div class="row align-items-center mt-5">
+          <div class="col-md-6 mb-4">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen style="
+    border-radius: 15px;
+"></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="highlight-text mb-2">Video Reel</div>
+            <h2 class="fw-bold">Unlock The Greatest<br>Value Possible</h2>
+            <p>Design, business understanding, ability to put themselves in the merchant’s shoes meant to partner.</p>
+          </div>
+        </div>
+      </div>
+
+      <hr style="border-color: #F3D1BF;">
+
+    </div>
+  </section>
+
+  <!-- PORTFOLIO / LATEST WORK -->
+  <section id="portfolio" class="portfolio-section py-5">
+    <div class="container text-center">
+      <small class="text-uppercase highlight-text">Portfolio</small>
+      <h2 class="fw-bold display-5 text-white mb-4">Latest Work</h2>
+
+      <!-- Filters (unchanged) -->
+      <ul class="portfolio-filters nav justify-content-center mb-5">
+        <li class="nav-item"><a class="nav-link active" href="#">Show All <sup>14</sup></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Design <sup>6</sup></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Branding <sup>4</sup></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Illustration <sup>3</sup></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Motion <sup>1</sup></a></li>
+      </ul>
+
+      <!-- Cards Container -->
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <img src="./images/Bitmap01.png" alt="SOFA">
+          <span class="badge">Design</span>
+          <h3>SOFA</h3>
+        </div>
+        <div class="portfolio-card">
+          <img src="./images/Bitmap02.png" alt="KeyBoard">
+          <span class="badge">Branding</span>
+          <h3>KeyBoard</h3>
+        </div>
+        <div class="portfolio-card">
+          <img src="./images/Bitmap03.png" alt="Work Media">
+          <span class="badge">Illustration</span>
+          <h3>Work Media</h3>
+        </div>
+        <div class="portfolio-card">
+          <img src="./images/Bitmap04.png" alt="DDDone">
+          <span class="badge">Motion</span>
+          <h3>DDDone</h3>
+        </div>
+        <!-- add more .portfolio-card as needed -->
+      </div>
+
+      <div class="mt-5">
+        <a href="#" class="btn btn-outline-light px-4">Explore More</a>
+      </div>
+    </div>
+
+    <div class="row align-items-center m-5" style="background: #FDF0E9; border-radius: .75rem; overflow: hidden;">
+      <!-- Left text -->
+      <div class="col-lg-5 text-lg-start text-center p-5">
+        <small class="text-uppercase" style="color: var(--accent-orange);">Get Started</small>
+        <h2 class="fw-bold" style="color: #3e2a1f;">We Help Companies<br>Move Faster</h2>
+        <a href="#" class="btn btn-primary px-4" style="background: var(--accent-orange); border:none;">
+          Contact Us
+        </a>
+      </div>
+      <!-- Center graphic/card -->
+      <div class="col-lg-4 text-center">
+        <!-- you can swap out for your own graphic/card markup -->
+        <img src="./images/block.png" alt="Dashboard preview" class="img-fluid" />
+      </div>
+      <!-- Right person image -->
+      <div class="col-lg-3 text-center">
+        <img src="./images/Img.png" alt="Happy client" class="img-fluid rounded" />
+      </div>
+    </div>
+
+    <!-- TEAM CAROUSEL -->
+    <section id="team" class="py-5" style="background-color: #28293E;">
+      <div class="container">
+
+        <!-- Header + arrows -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <div>
+            <small class="text-uppercase" style="color: #F15A4A; letter-spacing: 1px;">Our Team</small><br>
+            <h2 class="fw-bold text-white position-relative d-inline-block mb-0">
+              Team of Designers<br>and Developers
+            </h2>
+          </div>
+          <div>
+            <button id="team-prev" class="btn-circle me-2"><i class="bi bi-arrow-left"></i></button>
+            <button id="team-next" class="btn-circle"><i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Cards wrapper -->
+        <div id="team-wrapper" class="d-flex overflow-hidden">
+          <div id="team-track" class="d-flex w-100">
+            <!-- Card 1 -->
+            <div class="team-item mx-2 d-flex flex-column">
+              <div class="team-card flex-grow-1">
+                <img src="./images/Bitmap05.png" alt="Azah Anyeni" />
+              </div>
+              <div class="team-caption text-center mt-3">
+                <h5 class="text-white mb-1">Azah Anyeni</h5>
+                <small class="text-secondary">Designer</small>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="team-item mx-2 d-flex flex-column">
+              <div class="team-card flex-grow-1">
+                <img src="./images/Bitmap06.png" alt="Roelof Bekkenenks" />
+              </div>
+              <div class="team-caption text-center mt-3">
+                <h5 class="text-white mb-1">Roelof Bekkenenks</h5>
+                <small class="text-secondary">React Developer</small>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="team-item mx-2 d-flex flex-column">
+              <div class="team-card flex-grow-1">
+                <img src="./images/Bitmap07.png" alt="Leonardo Oliveira" />
+              </div>
+              <div class="team-caption text-center mt-3">
+                <h5 class="text-white mb-1">Leonardo Oliveira</h5>
+                <small class="text-secondary">Illustrator</small>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="team-item mx-2 d-flex flex-column">
+              <div class="team-card flex-grow-1">
+                <img src="./images/Bitmap08.png" alt="Izabella Tabakova" />
+              </div>
+              <div class="team-caption text-center mt-3">
+                <h5 class="text-white mb-1">Izabella Tabakova</h5>
+                <small class="text-secondary">Product Designer</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination dots -->
+        <div class="d-flex justify-content-center mt-4">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- PRICING SECTION -->
+  <section class="py-5 bg-peach">
+    <div class="container">
+      <!-- Header -->
+      <div class="text-start mb-5">
+        <small class="d-block text-accent fw-400 fs-6 mb-2">Pricing</small>
+        <h2 class="fw-bold fs-1 lh-1 text-dark">Check Our Pricing Plans</h2>
+      </div>
+
+      <!-- Cards Row -->
+      <div class="row g-4">
+        <!-- Consultation -->
+        <div class="col-md-4">
+          <div class="card card-pricing-transparent h-100">
+            <div class="card-body d-flex flex-column">
+              <small class="text-accent fw-400 fs-6 mb-3">Consultation</small>
+              <h3 class="fw-bold fs-3 text-dark mb-3">Free</h3>
+              <p class="text-muted-64 mb-4 flex-grow-1">
+                Your digital marketing efforts, instead of handling in-house.
+              </p>
+              <ul class="list-unstyled mb-4">
+                <li class="mb-2"><i class="bi bi-circle-fill text-accent me-2"></i>Brand Design</li>
+                <li class="mb-2"><i class="bi bi-circle-fill text-muted-64 me-2"></i>Market Analysis</li>
+                <li><i class="bi bi-circle-fill text-muted-64 me-2"></i>Production</li>
+              </ul>
+              <a href="#" class="btn btn-white mt-auto">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design (Popular) -->
+        <div class="col-md-4">
+          <div class="card card-pricing-popular popular-tall h-100 position-relative">
+            <span class="badge bg-accent-popular position-absolute">Popular</span>
+            <div class="card-body d-flex flex-column pt-5">
+              <small class="text-accent fw-400 fs-6 mb-3">Design</small>
+              <h3 class="fw-bold fs-3 text-dark mb-3">$1500</h3>
+              <p class="text-muted-64 mb-4 flex-grow-1">
+                Provide your business with a variety of digital solutions to promote.
+              </p>
+              <ul class="list-unstyled mb-4">
+                <li class="mb-2"><i class="bi bi-circle-fill text-accent me-2"></i>Brand Design</li>
+                <li class="mb-2"><i class="bi bi-circle-fill text-accent me-2"></i>Market Analysis</li>
+                <li><i class="bi bi-circle-fill text-muted-64 me-2"></i>Production</li>
+              </ul>
+              <a href="#" class="btn btn-accent mt-auto">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design + Code -->
+        <div class="col-md-4">
+          <div class="card card-pricing-transparent h-100">
+            <div class="card-body d-flex flex-column">
+              <small class="text-accent fw-400 fs-6 mb-3">Design + Code</small>
+              <h3 class="fw-bold fs-3 text-dark mb-3">$2900</h3>
+              <p class="text-muted-64 mb-4 flex-grow-1">
+                Help you hit your marketing goals and grow your business.
+              </p>
+              <ul class="list-unstyled mb-4">
+                <li class="mb-2"><i class="bi bi-circle-fill text-accent me-2"></i>Brand Design</li>
+                <li class="mb-2"><i class="bi bi-circle-fill text-accent me-2"></i>Market Analysis</li>
+                <li><i class="bi bi-circle-fill text-accent me-2"></i>Production</li>
+              </ul>
+              <a href="#" class="btn btn-white mt-auto">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FAQ SECTION -->
+  <section class="py-5 bg-peach">
+    <div class="container">
+      <div class="row gx-5 align-items-start">
+        <!-- Left column -->
+        <div class="col-lg-6 mb-4">
+          <small class="d-block text-accent fw-400 fs-6 mb-2">FAQ</small>
+          <h3 class="fw-bold fs-2 text-dark mb-3">Frequently Asked Questions</h3>
+          <p class="text-muted-64 mb-3">
+            A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling
+            in-house.
+          </p>
+          <a href="#" class="text-dark fw-500 text-decoration-none">Contact Us</a>
+        </div>
+
+        <!-- Right column: Accordion -->
+        <div class="col-lg-6">
+          <div class="accordion" id="faqAccordion">
+            <!-- Item 1 (open) -->
+            <div class="accordion-item mb-3 border-0">
+              <h2 class="accordion-header" id="faqHeading1">
+                <button class="accordion-button shadow-none rounded-3" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                  A digital agency is a business
+                </button>
+              </h2>
+              <div id="faqCollapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted-64">
+                  Digital marketing efforts, instead of handling in-house. They can provide your business with a variety
+                  of digital solutions to promote your product or service online and help you hit your marketing goals
+                  and grow your business.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="accordion-item mb-3 border-0">
+              <h2 class="accordion-header" id="faqHeading2">
+                <button class="accordion-button collapsed shadow-none rounded-3" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                  Hire to outsource your digital
+                </button>
+              </h2>
+              <div id="faqCollapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted-64">
+                  Start by defining your goals and budget. Research agencies with proven expertise, then collaborate via
+                  regular check-ins and shared tools to stay aligned.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="accordion-item mb-3 border-0">
+              <h2 class="accordion-header" id="faqHeading3">
+                <button class="accordion-button collapsed shadow-none rounded-3" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                  Marketing efforts
+                </button>
+              </h2>
+              <div id="faqCollapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted-64">
+                  Our services cover brand design, market analysis, web development, content creation, and performance
+                  reporting—fully customizable to your needs.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="accordion-item border-0">
+              <h2 class="accordion-header" id="faqHeading4">
+                <button class="accordion-button collapsed shadow-none rounded-3" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                  Can provide your business
+                </button>
+              </h2>
+              <div id="faqCollapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted-64">
+                  Yes! Whether you’re a small startup or large enterprise, we tailor our packages—offering ongoing
+                  support, training, and detailed reporting to maximize ROI.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="position-relative"
+    style="background: url('/images/map.png') center/cover no-repeat; min-height: 500px;">
+    <div class="container py-5">
+      <div class="row">
+        <!-- Form Column -->
+        <div class="col-lg-4">
+          <div class="bg-white bg-opacity-95 p-4 rounded shadow">
+            <h5 class="mb-4">Get In Touch</h5>
+            <form>
+              <div class="mb-3">
+                <input type="email" class="form-control rounded-1 border-secondary" placeholder="Your email">
+              </div>
+              <div class="mb-3">
+                <select class="form-select rounded-1 border-secondary">
+                  <option selected>Subject</option>
+                  <option>General Inquiry</option>
+                  <option>Support</option>
+                  <option>Partnership</option>
+                </select>
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control rounded-1 border-secondary" rows="4" placeholder="Message" style="
+    resize: unset;
+"></textarea>
+              </div>
+              <button type="submit" class="btn btn-accent w-100 rounded-1">Submit Now</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Map Pin Column -->
+        <div class="col-lg-8 position-relative">
+          <img src="/images/pin.png" alt="Location pin" class="position-absolute top-50 start-50 translate-middle"
+            style="width: 60px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="bg-peach pt-5 pb-5">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Logo -->
+        <div class="col-md-3">
+          <h5 class="fw-bold text-dark">Agency</h5>
+        </div>
+
+        <!-- Menu Links -->
+        <div class="col-6 col-md-3">
+          <h6 class="text-accent fw-400 fs-6 mb-3">Menu</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" class="text-dark text-decoration-none">About</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Services</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Blog</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Service Links -->
+        <div class="col-6 col-md-3">
+          <h6 class="text-accent fw-400 fs-6 mb-3">Service</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" class="text-dark text-decoration-none">Design</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Development</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Marketing</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">See More</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="col-md-3 text-md-end">
+          <a href="#" class="btn btn-accent btn-sm rounded-circle me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="btn btn-accent btn-sm rounded-circle me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="btn btn-accent btn-sm rounded-circle"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <hr class="my-4">
+
+      <div class="d-flex justify-content-between flex-wrap small text-muted">
+        <div>© 2022 Lasaqiq. All Rights Reserved.</div>
+        <div>
+          <a href="#" class="text-muted text-decoration-none me-3">Terms of Use</a>
+          <a href="#" class="text-muted text-decoration-none">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JS + Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</body>
+
+</html>
